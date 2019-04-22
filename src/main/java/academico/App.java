@@ -318,13 +318,11 @@ public class App {
 		//------------------------------------------------------------------------------------
 		
 		//Criando as avaliações de Português
-		//Aluno REPROVADO
 		Avaliacao geografia1 = new Avaliacao(aluno01, geografia, 6);
 		Avaliacao geografia2 = new Avaliacao(aluno01, geografia, 6);
 		Avaliacao geografia3 = new Avaliacao(aluno01, geografia, 6);
 		Avaliacao geografia4 = new Avaliacao(aluno01, geografia, 7);
 		
-		//Alunos APROVADOS
 		Avaliacao geografia5 = new Avaliacao(aluno02, geografia, 1);
 		Avaliacao geografia6 = new Avaliacao(aluno02, geografia, 1);
 		Avaliacao geografia7 = new Avaliacao(aluno02, geografia, 1);
@@ -416,13 +414,11 @@ public class App {
 		//------------------------------------------------------------------------------------
 		
 		//Criando as avaliações de Português
-		//Aluno REPROVADO
 		Avaliacao filosofia1 = new Avaliacao(aluno01, filosofia, 1);
 		Avaliacao filosofia2 = new Avaliacao(aluno01, filosofia, 5);
 		Avaliacao filosofia3 = new Avaliacao(aluno01, filosofia, 3);
 		Avaliacao filosofia4 = new Avaliacao(aluno01, filosofia, 2);
 		
-		//Alunos APROVADOS
 		Avaliacao filosofia5 = new Avaliacao(aluno02, filosofia, 0);
 		Avaliacao filosofia6 = new Avaliacao(aluno02, filosofia, 0);
 		Avaliacao filosofia7 = new Avaliacao(aluno02, filosofia, 4);
