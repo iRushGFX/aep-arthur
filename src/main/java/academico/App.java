@@ -1,5 +1,7 @@
 package academico;
 
+import java.util.ArrayList;
+
 /**
 * @author Rodrigo Augusto Gimenes de Oliveira
 * @author Guilherme Felizardo Reis
@@ -29,8 +31,8 @@ public class App {
 		
 		//Criando as avaliações de Matemática
 		//Aluno REPROVADO
-		Avaliacao matematica1 = new Avaliacao(aluno01, matematica, 6.0f);
-		Avaliacao matematica2 = new Avaliacao(aluno01, matematica, 5.0f);
+		Avaliacao matematica1 = new Avaliacao(aluno01, matematica, 6);
+		Avaliacao matematica2 = new Avaliacao(aluno01, matematica, 5);
 		Avaliacao matematica3 = new Avaliacao(aluno01, matematica, 4);
 		Avaliacao matematica4 = new Avaliacao(aluno01, matematica, 7);
 		
@@ -125,13 +127,11 @@ public class App {
 		
 		
 		
-		System.out.println(repositorioMatematica.obterAprovados(matematica));
+		System.out.println("Aprovados em matemática " + repositorioMatematica.obterAprovados(matematica));
 		
-		System.out.println(matematica35.getAluno().getNome());
-		
-
+		System.out.println(0%4);
 		
 
-		
+
 	}
 }

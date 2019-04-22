@@ -19,11 +19,25 @@ public class RepositorioDeAvaliacoes {
 	
     public ArrayList obterAprovados(Disciplina disciplina){
         int contador = 0;
+        float somaNotas = 0;
+        float mediaAluno = 0;
         Avaliacao aux;
         ArrayList aprovados = new ArrayList();
+        
         while(contador < this.avaliacoes.size()){
-            aux = this.avaliacoes.get(contador);
-            if()
+        	aux = avaliacoes.get(contador);
+        	somaNotas += aux.getNota();
+            if(contador%4 == 0) {
+            	aprovados.add(aux.getAluno().getNome());
+            	mediaAluno = somaNotas/4;
+//                if(mediaAluno >= 6.0) {
+//                	aprovados.add(aux.getAluno().getNome());
+//                }
+            	mediaAluno = 0;
+                somaNotas = 0;
+            }
+
+    
             contador++;
         }
         return aprovados;
